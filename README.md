@@ -92,11 +92,3 @@ curl -X POST http://localhost:3000/feedback \
     "message": "It would be great to have dark mode!",
   }'
 ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the MIT license.
