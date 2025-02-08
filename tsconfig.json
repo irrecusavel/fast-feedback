@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"strict": true,
+		
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+
+		"lib": ["ESNext"],
+		"target": "ESNext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"outDir": "./dist",
+		"baseUrl": "./src"
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
