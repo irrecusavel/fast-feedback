@@ -43,6 +43,8 @@ export class FeedbackController {
       where: { id: Number(id) },
     });
 
-    return reply.status(204).send();
+    return reply.status(200).send({
+      message: "Feedback deleted successfully",
+    });
   }
 }
